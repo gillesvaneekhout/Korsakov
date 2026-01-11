@@ -13,7 +13,7 @@ triggers:
 
 ## Purpose
 
-Define and implement appropriate testing strategies for Indie Campers applications. Note: Testing infrastructure is currently minimal, so focus on critical paths and manual validation.
+Define and implement appropriate testing strategies for Your Project applications. Note: Testing infrastructure is currently minimal, so focus on critical paths and manual validation.
 
 ## Testing Pyramid
 

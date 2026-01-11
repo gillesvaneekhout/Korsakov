@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier Core Utilities
+ * Korsakov Core Utilities
  * Common functions for file operations, markdown parsing, and console output
  */
 
@@ -52,12 +52,12 @@ function info(message) {
 function getProjectRoot() {
   // INIT_CWD is set by npm during install scripts
   if (process.env.INIT_CWD) {
-    // Verify it's not the xavier package itself
+    // Verify it's not the korsakov package itself
     const packageJsonPath = path.join(process.env.INIT_CWD, 'package.json');
     if (fs.existsSync(packageJsonPath)) {
       try {
         const pkg = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
-        if (pkg.name !== '@indiecampers/xavier') {
+        if (pkg.name !== '@indiecampers/korsakov') {
           return process.env.INIT_CWD;
         }
       } catch {
@@ -74,7 +74,7 @@ function getProjectRoot() {
     if (fs.existsSync(packageJsonPath)) {
       try {
         const pkg = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
-        if (pkg.name !== '@indiecampers/xavier') {
+        if (pkg.name !== '@indiecampers/korsakov') {
           return dir;
         }
       } catch {
@@ -88,21 +88,21 @@ function getProjectRoot() {
 }
 
 /**
- * Get the templates directory (ai-tools in xavier package)
+ * Get the templates directory (ai-tools in korsakov package)
  */
 function getTemplatesDir() {
   return path.join(__dirname, '..', '..', 'ai-tools');
 }
 
 /**
- * Check if a directory is the xavier package itself
+ * Check if a directory is the korsakov package itself
  */
 function isSelfPackage(dir) {
   const packageJsonPath = path.join(dir, 'package.json');
   if (fs.existsSync(packageJsonPath)) {
     try {
       const pkg = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
-      return pkg.name === '@indiecampers/xavier';
+      return pkg.name === '@indiecampers/korsakov';
     } catch {
       return false;
     }

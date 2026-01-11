@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier Gemini CLI Adapter
+ * Korsakov Gemini CLI Adapter
  * Generates .gemini/ directory with GEMINI.md and settings.json
  */
 
@@ -75,22 +75,22 @@ class GeminiAdapter extends BaseAdapter {
    * Generate GEMINI.md content
    */
   generateGeminiMd(config) {
-    const baseContent = this.generateReferenceContent(config, 'Xavier AI Framework - Gemini CLI');
+    const baseContent = this.generateReferenceContent(config, 'Korsakov AI Framework - Gemini CLI');
 
     // Add Gemini-specific instructions
     const geminiInstructions = `
 ## Gemini CLI-Specific Instructions
 
-### Using Xavier with Gemini
+### Using Korsakov with Gemini
 
 Start Gemini CLI with context:
 \`\`\`bash
-gemini -p "Read .gemini/GEMINI.md for Xavier framework instructions"
+gemini -p "Read .gemini/GEMINI.md for Korsakov framework instructions"
 \`\`\`
 
 ### Natural Language Commands
 
-Use these phrases to invoke Xavier workflows:
+Use these phrases to invoke Korsakov workflows:
 
 | Workflow | Say... |
 |----------|--------|
@@ -154,7 +154,7 @@ When executing code changes:
       context: {
         fileName: ['GEMINI.md']
       },
-      xavier: {
+      korsakov: {
         version: '1.0.0',
         agents: agents.map(a => a.id),
         skills: skills.map(s => s.id),

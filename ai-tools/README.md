@@ -1,6 +1,6 @@
-# Xavier AI Tools
+# Korsakov AI Tools
 
-This directory contains the canonical definitions for Xavier's AI team framework.
+This directory contains the canonical definitions for Korsakov's AI team framework.
 
 ## Structure
 
@@ -57,26 +57,26 @@ Skills are reusable patterns that agents invoke:
 
 ## Usage
 
-These files are the **source of truth** for Xavier. Vendor-specific configurations (`.claude/`, `.cursorrules`, `.windsurf/`, `.gemini/`) are generated from these definitions.
+These files are the **source of truth** for Korsakov. Vendor-specific configurations (`.claude/`, `.cursorrules`, `.windsurf/`, `.gemini/`) are generated from these definitions.
 
 ### Regenerate Vendor Configs
 
 ```bash
-npm run xavier:generate
+npm run korsakov:generate
 ```
 
 ### Reconfigure Installation
 
 ```bash
-npm run xavier:configure
+npm run korsakov:configure
 ```
 
 ## Customization
 
-You can customize Xavier by:
+You can customize Korsakov by:
 
 1. **Adding agents**: Create new `.md` files in `agents/`
 2. **Adding skills**: Create new directories in `skills/` with `SKILL.md`
 3. **Adding commands**: Create new `.md` files in `commands/`
 
-After customization, run `npm run xavier:generate` to update vendor configs.
+After customization, run `npm run korsakov:generate` to update vendor configs.

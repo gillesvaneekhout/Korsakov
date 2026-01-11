@@ -1,6 +1,6 @@
 ---
 name: code-change-protocol
-description: Follow Indie Campers coding standards and conventions when making code changes
+description: Follow Your Project coding standards and conventions when making code changes
 triggers:
   - "implement this"
   - "write code for"
@@ -13,7 +13,7 @@ triggers:
 
 ## Purpose
 
-Ensure all code changes follow Indie Campers conventions and maintain consistency across the codebase.
+Ensure all code changes follow Your Project conventions and maintain consistency across the codebase.
 
 ## General Principles
 

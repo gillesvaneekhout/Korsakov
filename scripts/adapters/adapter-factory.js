@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier Adapter Factory
+ * Korsakov Adapter Factory
  * Creates and manages vendor-specific adapters
  */
 

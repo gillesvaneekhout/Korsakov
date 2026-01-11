@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier Post-Install Script
+ * Korsakov Post-Install Script
  * Vendor-agnostic installation with adapter pattern
  *
  * Default install: Copy canonical files to ai-tools/, generate all vendors
@@ -47,8 +47,8 @@ async function main() {
 
     if (!projectRoot) {
       // Running in development or not from npm install
-      log(`Xavier v${version} - Your AI Development Team, Orchestrated`, colors.bold + colors.blue);
-      log('Run "npm install github:IndieCampers/xavier" in your project to install.', colors.cyan);
+      log(`Korsakov v${version} - Your AI Development Team, Orchestrated`, colors.bold + colors.blue);
+      log('Run "npm install github:gillesvaneekhout/korsakov" in your project to install.', colors.cyan);
       return;
     }
 
@@ -57,13 +57,13 @@ async function main() {
     // Check if templates directory exists
     if (!fs.existsSync(templatesDir)) {
       error(`Templates directory not found: ${templatesDir}`);
-      error('This may indicate a corrupted installation. Try reinstalling Xavier.');
+      error('This may indicate a corrupted installation. Try reinstalling Korsakov.');
       process.exit(1);
     }
 
     console.log('');
     log('╔════════════════════════════════════════════════════════════╗', colors.blue);
-    log(`║          Xavier AI Team Framework v${version.padEnd(23)}║`, colors.blue);
+    log(`║          Korsakov AI Team Framework v${version.padEnd(23)}║`, colors.blue);
     log('╚════════════════════════════════════════════════════════════╝', colors.blue);
     console.log('');
 

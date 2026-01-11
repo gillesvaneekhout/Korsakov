@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier Windsurf Adapter
+ * Korsakov Windsurf Adapter
  * Generates .windsurf/rules.md with references to ai-tools/
  */
 
@@ -67,7 +67,7 @@ class WindsurfAdapter extends BaseAdapter {
    * Generate rules.md content
    */
   generateWindsurfRules(config) {
-    const baseContent = this.generateReferenceContent(config, 'Xavier AI Framework - Windsurf Rules');
+    const baseContent = this.generateReferenceContent(config, 'Korsakov AI Framework - Windsurf Rules');
 
     // Add Windsurf-specific instructions
     const windsurfInstructions = `
@@ -111,7 +111,7 @@ When you see @agent-name in the conversation:
 
 ### Cascade Integration
 
-Windsurf's Cascade feature works well with Xavier:
+Windsurf's Cascade feature works well with Korsakov:
 - Use Cascade for multi-file edits orchestrated by agents
 - Let agents define the scope, Cascade executes
 - Wave execution maps naturally to Cascade flows

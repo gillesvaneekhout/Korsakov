@@ -1,19 +1,19 @@
-# Xavier AI Framework
+# Korsakov AI Framework
 
 > **Note**: The main Claude Code configuration is in `.claude/CLAUDE.md`
 
-Xavier is a lightweight, centralized AI agent framework designed specifically for Claude Code. It provides intelligent agent delegation, skill orchestration, wave-based parallel execution, and project memory.
+Korsakov is a lightweight, centralized AI agent framework designed specifically for Claude Code. It provides intelligent agent delegation, skill orchestration, wave-based parallel execution, and project memory.
 
 ## Quick Start
 
 ```bash
-# Open your project with Xavier in the workspace
-cd /Users/rui.costa/ai-indie
+# Open your project with Korsakov in the workspace
+cd your-project
 claude .
 
-# Or symlink Xavier to your project
+# Or symlink Korsakov to your project
 cd your-project
-ln -s /path/to/xavier/.claude .claude
+ln -s /path/to/korsakov/.claude .claude
 ```
 
 ## Available Commands
@@ -35,7 +35,7 @@ ln -s /path/to/xavier/.claude .claude
 
 ## Wave-Based Execution
 
-Xavier uses **wave-based parallel execution** for maximum efficiency:
+Korsakov uses **wave-based parallel execution** for maximum efficiency:
 
 ```
 WAVE 1 (No Dependencies - All Parallel):
@@ -57,7 +57,7 @@ WAVE 3 (After Wave 2):
 
 ## Work Tracking
 
-Xavier supports two work tracking backends:
+Korsakov supports two work tracking backends:
 
 ### Option 1: Beads (Recommended)
 ```bash
@@ -88,7 +88,6 @@ Use `@agent-name` to engage specific agents:
 ### Engineering Agents
 - `@backend-engineer` - API development and backend implementation
 - `@frontend-engineer` - UI/UX implementation with Next.js/React
-- `@data-analytics-engineer` - Data pipelines and analytics implementation
 
 ### Quality Agents
 - `@qa-release` - Testing, quality assurance, and release management
@@ -104,7 +103,7 @@ Skills activate automatically based on context:
 ### Core Skills
 1. `intake-and-clarify` - Understand requirements and gather context
 2. `plan-and-slice` - Break work into manageable pieces
-3. `code-change-protocol` - Follow Indie Campers coding standards
+3. `code-change-protocol` - Follow coding standards
 4. `testing-protocol` - Ensure quality with appropriate tests
 5. `pr-description-protocol` - Create comprehensive PR descriptions
 6. `observability-and-tracking` - Add logging and monitoring
@@ -181,7 +180,7 @@ Key project documentation lives in `docs/ai/`:
 
 ### Technical Improvement
 ```
-/start Optimize the KPI dashboard queries
+/start Optimize the dashboard queries
 
 → @tech-lead assesses impact
 → @backend-engineer implements

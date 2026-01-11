@@ -1,4 +1,4 @@
-# Xavier AI Framework - Claude Code Configuration
+# Korsakov AI Framework - Claude Code Configuration
 
 ## Available Commands
 
@@ -19,9 +19,6 @@ See `.claude/commands/` for full command documentation.
 ### Engineering Layer
 @backend-engineer, @frontend-engineer
 
-### Data Engineering Layer
-@data-pipeline-engineer, @data-analytics-engineer, @data-platform-engineer, @data-bi-analyst
-
 ### Quality Layer
 @qa-release
 
@@ -34,16 +31,11 @@ See `.claude/agents/` for full agent definitions.
 ### Core Skills
 - `intake-and-clarify` - Understand requirements and gather context
 - `plan-and-slice` - Break work into manageable pieces
-- `code-change-protocol` - Follow Indie Campers coding standards
+- `code-change-protocol` - Follow coding standards
 - `testing-protocol` - Ensure quality with appropriate tests
 - `pr-description-protocol` - Create comprehensive PR descriptions
 - `observability-and-tracking` - Add logging and monitoring
 - `prd-to-spec` - Convert product requirements to technical specs
-
-### Data Engineering Skills
-- `glue-job-development` - AWS Glue job patterns for PySpark ETL
-- `builder-framework` - Generate Glue jobs from YAML definitions
-- `medallion-architecture` - Bronze-Silver-Gold data lake patterns
 
 ### Orchestration Skills
 - `work-tracking` - Manage work items with Beads or JSON
@@ -119,7 +111,7 @@ main ──┬── feature/kpi-trends ──┬── PR ──► main
 
 ## Wave-Based Execution
 
-Xavier uses **wave-based parallel execution** for maximum efficiency:
+Korsakov uses **wave-based parallel execution** for maximum efficiency:
 
 ```
 WAVE 1 (No Dependencies - All Parallel):
@@ -139,7 +131,7 @@ WAVE 3 (After Wave 2):
 
 ## Work Tracking
 
-Xavier supports two work tracking backends:
+Korsakov supports two work tracking backends:
 
 ### Option 1: Beads (Recommended)
 ```bash

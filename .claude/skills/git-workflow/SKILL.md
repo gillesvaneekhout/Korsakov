@@ -145,7 +145,7 @@ git branch -d feature/kpi-trend-charts
 git push origin --delete feature/kpi-trend-charts
 ```
 
-## Integration with Xavier Orchestration
+## Integration with Korsakov Orchestration
 
 ### /start Command Creates Branch
 

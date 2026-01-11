@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier Interactive Prompts
+ * Korsakov Interactive Prompts
  * Handles interactive setup and user prompts
  */
 
@@ -169,10 +169,10 @@ function displayNonInteractiveSummary() {
   log('╚════════════════════════════════════════════════════════════╝', colors.blue);
   console.log('');
 
-  info('Xavier installed with default configuration (all vendors)');
+  info('Korsakov installed with default configuration (all vendors)');
   console.log('');
   log('To customize, run:', colors.dim);
-  log('  npm run xavier:configure', colors.cyan);
+  log('  npm run korsakov:configure', colors.cyan);
   console.log('');
 }
 
@@ -182,7 +182,7 @@ function displayNonInteractiveSummary() {
 function displaySuccessMessage(selections, results) {
   console.log('');
   log('╔════════════════════════════════════════════════════════════╗', colors.green);
-  log('║                    Xavier Installed! 🎉                     ║', colors.green);
+  log('║                    Korsakov Installed! 🎉                     ║', colors.green);
   log('╚════════════════════════════════════════════════════════════╝', colors.green);
   console.log('');
 

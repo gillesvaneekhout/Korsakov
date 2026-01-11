@@ -1,4 +1,4 @@
-# Xavier Architecture
+# Korsakov Architecture
 
 > Detailed technical documentation. For quick start, see [README.md](README.md).
 
@@ -6,7 +6,7 @@
 
 ## System Overview
 
-Xavier is a multi-agent orchestration framework that provides:
+Korsakov is a multi-agent orchestration framework that provides:
 
 - **Specialized AI Agents**: Domain experts for different aspects of development
 - **Reusable Skills**: Common patterns and protocols encoded once, used everywhere
@@ -203,7 +203,7 @@ EPIC: Feature Implementation
 
 ### Beads Integration
 
-Xavier integrates with [Beads](https://github.com/steveyegge/beads) for work tracking:
+Korsakov integrates with [Beads](https://github.com/steveyegge/beads) for work tracking:
 
 ```bash
 bd init                          # Initialize in project
@@ -216,7 +216,7 @@ bd close bd-1.1 --reason "Done"  # Complete item
 
 ### JSON Fallback
 
-If Beads isn't available, Xavier uses `docs/ai/work-items.json`:
+If Beads isn't available, Korsakov uses `docs/ai/work-items.json`:
 
 ```json
 {
@@ -322,7 +322,7 @@ cat docs/ai/current-work.md # Progress log
 ## File Structure
 
 ```
-xavier/
+korsakov/
 ├── .claude/
 │   ├── CLAUDE.md              # Main config (commands registered)
 │   ├── settings.local.json    # Permissions
@@ -359,7 +359,7 @@ xavier/
 
 ---
 
-## Extending Xavier
+## Extending Korsakov
 
 ### Adding a New Agent
 

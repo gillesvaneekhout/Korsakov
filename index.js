@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 /**
- * Xavier - Your AI Development Team, Orchestrated
+ * Korsakov - Your AI Development Team, Orchestrated
  *
- * This is the main entry point for the Xavier package.
+ * This is the main entry point for the Korsakov package.
  * The actual functionality is in the scripts/ directory.
  */
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier OpenCode Adapter
+ * Korsakov OpenCode Adapter
  * Generates .opencode/ directory with agent and command definitions
  *
  * OpenCode uses:
@@ -201,8 +201,8 @@ class OpenCodeAdapter extends BaseAdapter {
         }
       },
 
-      // Xavier metadata
-      xavier: {
+      // Korsakov metadata
+      korsakov: {
         version: '1.0.0',
         agents: agents.map(a => a.id),
         generatedAt: this.getTimestamp()
@@ -216,11 +216,11 @@ class OpenCodeAdapter extends BaseAdapter {
   generateAgentsMd(config, agents) {
     let content = `# Project Agents
 
-This file describes the AI agents available in this project via Xavier.
+This file describes the AI agents available in this project via Korsakov.
 
-## Xavier Framework
+## Korsakov Framework
 
-Xavier is a multi-agent orchestration framework that coordinates specialized AI agents
+Korsakov is a multi-agent orchestration framework that coordinates specialized AI agents
 working in parallel. See \`ai-tools/README.md\` for full documentation.
 
 ## Available Agents
@@ -262,7 +262,7 @@ Context persists in \`docs/ai/\`:
 
 ## Wave-Based Execution
 
-Xavier organizes work into dependency waves for maximum parallelism:
+Korsakov organizes work into dependency waves for maximum parallelism:
 
 \`\`\`
 WAVE 1 (No Dependencies - All Parallel):
@@ -280,7 +280,7 @@ WAVE 2 (After Wave 1):
   }
 
   /**
-   * Map Xavier model names to OpenCode provider/model format
+   * Map Korsakov model names to OpenCode provider/model format
    */
   mapModelToOpenCode(model) {
     const modelMap = {

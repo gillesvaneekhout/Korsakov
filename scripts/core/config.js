@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier Configuration Management
+ * Korsakov Configuration Management
  * Manages ai-tools/config.json - the source of truth for installations
  */
 

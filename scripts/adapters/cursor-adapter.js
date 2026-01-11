@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier Cursor Adapter
+ * Korsakov Cursor Adapter
  * Generates .cursorrules file with references to ai-tools/
  */
 
@@ -71,7 +71,7 @@ class CursorAdapter extends BaseAdapter {
    * Generate .cursorrules content
    */
   generateCursorRules(config) {
-    const baseContent = this.generateReferenceContent(config, 'Xavier AI Framework - Cursor Rules');
+    const baseContent = this.generateReferenceContent(config, 'Korsakov AI Framework - Cursor Rules');
 
     // Add Cursor-specific instructions
     const cursorInstructions = `

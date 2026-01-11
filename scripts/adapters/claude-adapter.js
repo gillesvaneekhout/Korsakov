@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier Claude Code Adapter
+ * Korsakov Claude Code Adapter
  * Generates .claude/ directory with symlinks to ai-tools/
  */
 
@@ -103,7 +103,7 @@ class ClaudeAdapter extends BaseAdapter {
     const commands = this.getCommands();
     const skills = this.getSkills();
 
-    let content = `# Xavier AI Framework - Claude Code Configuration
+    let content = `# Korsakov AI Framework - Claude Code Configuration
 
 ## Available Commands
 
@@ -237,7 +237,7 @@ main ──┬── feature/kpi-trends ──┬── PR ──► main
 
 ## Wave-Based Execution
 
-Xavier uses **wave-based parallel execution** for maximum efficiency:
+Korsakov uses **wave-based parallel execution** for maximum efficiency:
 
 \`\`\`
 WAVE 1 (No Dependencies - All Parallel):
@@ -257,7 +257,7 @@ WAVE 3 (After Wave 2):
 
 ## Work Tracking
 
-Xavier supports two work tracking backends:
+Korsakov supports two work tracking backends:
 
 ### Option 1: Beads (Recommended)
 \`\`\`bash

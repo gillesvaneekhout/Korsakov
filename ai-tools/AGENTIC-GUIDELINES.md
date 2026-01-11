@@ -1,4 +1,4 @@
-# Xavier Agentic Guidelines
+# Korsakov Agentic Guidelines
 
 ## Core Principles
 
@@ -71,7 +71,7 @@ Branch naming:
 
 ### 6. Work Tracking
 
-Xavier supports two backends:
+Korsakov supports two backends:
 
 **Beads (Recommended)**:
 ```bash

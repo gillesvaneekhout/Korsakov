@@ -125,7 +125,7 @@ Document key choices:
 - Simplified data fetching
 
 ### Why Logto for Auth?
-- Already integrated across Indie Campers apps
+- Already integrated across Your Project apps
 - Supports SSO requirements
 - Managed service reduces maintenance
 ```

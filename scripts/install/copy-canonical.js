@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Xavier Copy Canonical Files
+ * Korsakov Copy Canonical Files
  * Copies ai-tools/ templates to the project
  */
 
