@@ -1,0 +1,22 @@
+# Development files
+.git
+.gitignore
+.claude
+.DS_Store
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local development
+node_modules/
+.env
+.env.*

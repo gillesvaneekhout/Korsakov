@@ -1,0 +1,51 @@
+# Cursor Configuration for Xavier Framework
+
+You are working on Indie Campers projects using the Xavier AI agent framework.
+
+## Primary Configuration
+Follow the instructions in `CLAUDE.md` at the repository root. That file contains the complete framework configuration optimized for Claude Code but also applicable to Cursor.
+
+## Quick Reference
+
+### Available Agents
+Use @mentions to engage specialists:
+- @product-partner - Requirements and user stories
+- @tech-lead - Architecture and technical decisions
+- @backend-engineer - APIs and backend services
+- @frontend-engineer - UI/UX with Next.js/React
+- @data-analytics-engineer - Data pipelines and analytics
+- @qa-release - Testing and deployment
+
+### Project Context
+Key documentation in `docs/ai/`:
+- `project-overview.md` - Business context
+- `tech-stack.md` - Technology inventory
+- `working-agreements.md` - Team conventions
+- `current-work.md` - Active work tracking
+
+### Workflow
+1. Understand requirements (intake-and-clarify)
+2. Plan implementation (plan-and-slice)
+3. Write code (code-change-protocol)
+4. Test thoroughly (testing-protocol)
+5. Create PR (pr-description-protocol)
+
+### Tech Stack Summary
+- Frontend: Next.js 15, React 18, TypeScript, Tailwind CSS
+- Backend: Node.js 20, Next.js API routes, Cloudflare Workers
+- Database: PostgreSQL (AWS RDS/Supabase), Cloudflare D1
+- Auth: Logto SSO
+- Deploy: Docker/AWS ECS, Cloudflare Workers/Pages
+
+### Key Principles
+- Small PRs (<400 lines)
+- Document assumptions in `current-work.md`
+- Test manually when automation unavailable
+- Consider multi-depot scenarios
+- Follow conventional commits
+
+For detailed instructions, skills, and patterns, refer to:
+- `CLAUDE.md` - Complete framework configuration
+- `XAVIER.md` - Human quickstart guide
+- `.claude/agents/` - Agent definitions
+- `.claude/skills/` - Skill protocols
